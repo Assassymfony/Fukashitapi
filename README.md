@@ -47,6 +47,38 @@ classDiagram
 
     Post "1" <-- "n" Commentary : respond
     Post "n" <-- "1" Profil : publish
+    Tags "n" --> "n" Post : Have
+    Profil "n" -- "n" Profil : Follow 
+
+    class Post{
+        _id_ BIGINT
+        title TEXT
+        text TEXT
+        isDream BOOLEAN
+        upVote INT
+        downVote INT
+    }
+
+    class Profil{
+        _id_ BIGINT
+        name TEXT
+        description TEXT
+        password TEXT
+    }
+
+    class Tags{
+        id BIGINT
+        name TEXT
+        color TEXT
+    }
+
+    class Commentary{
+        _id_ BIGINT
+        text TEXT
+    }
+
+    Post "1" <-- "n" Commentary : respond
+    Post "n" <-- "1" Profil : publish
     Tags "n" --> "n" Post : Have 
 
 ```
