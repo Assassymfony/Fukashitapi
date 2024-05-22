@@ -1,6 +1,6 @@
 <div align = center>
 
-<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg5.goodfon.ru%2Fwallpaper%2Fnbig%2Fa%2F30%2Fjigglypuff-dzhiglipaff-dzhiglipaf-dzhiglipuff-dzhiglipuf-pok.jpg&f=1&nofb=1&ipt=488d8a02130cffe69f09d14760c08f881eeef2e2c980a88a3c6dce00f4c942fd&ipo=images" width="1080" height="560" object-fit=cover>
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg5.goodfon.ru%2Fwallpaper%2Fnbig%2Fa%2F30%2Fjigglypuff-dzhiglipaff-dzhiglipaf-dzhiglipuff-dzhiglipuf-pok.jpg&f=1&nofb=1&ipt=488d8a02130cffe69f09d14760c08f881eeef2e2c980a88a3c6dce00f4c942fd&ipo=images" width="1080" height="" >
 
 # **Fukashitapi** 
 ### Vos rêves valent le coup d'être diffusé
