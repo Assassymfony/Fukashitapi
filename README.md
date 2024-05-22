@@ -90,11 +90,17 @@ classDiagram
         text TEXT
         #post
     }
+    
+    class Follow{
+        #_follower_ BIGINT
+        #_followed_ BIGINT
+    }
 
     Post  <--  Commentary 
     Post  -->  Profil
     Tags  -->  Tagging 
-    Profil  <--  Profil
+    Profil  <--  Follow
+    Profil <-- Follow
     Post --> Tagging
 
 ```
