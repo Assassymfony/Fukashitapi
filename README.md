@@ -13,6 +13,44 @@
 Cet API permet le stockage et la récupération des informations stockés pour le bon fonctionnement de votre forum préféré :
 **Fukafukashita**
 
+# Base De données 
+
+## MCD : 
+```mermaid
+classDiagram
+    class Post{
+        _id_ BIGINT
+        title TEXT
+        text TEXT
+        isDream BOOLEAN
+        upVote INT
+        downVote INT
+    }
+
+    class Profil{
+        _id_ BIGINT
+        name TEXT
+        description TEXT
+        password TEXT
+    }
+
+    class Tags{
+        id BIGINT
+        name TEXT
+        color TEXT
+    }
+
+    class Commentary{
+        _id_ BIGINT
+        text TEXT
+    }
+
+    Post "1" <-- "n" Commentary : respond
+    Post "n" <-- "1" Profil : publish
+    Tags "n" --> "n" Post : Have 
+
+```
+
 
 # Développeurs 🧑‍💻
 
