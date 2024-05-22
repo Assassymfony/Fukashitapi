@@ -49,6 +49,7 @@ classDiagram
     Post "n" <-- "1" Profil : publish
     Tags "n" --> "n" Post : Have
     Profil "n" -- "n" Profil : Follow 
+    Commentary "1" <-- "n" Profil : Emit
 
 
 ```
@@ -89,6 +90,7 @@ classDiagram
         _id_ BIGINT
         text TEXT
         #post
+        #profil
     }
     
     class Follow{
@@ -102,6 +104,7 @@ classDiagram
     Profil  <--  Follow
     Profil <-- Follow
     Post --> Tagging
+    Commentary --> Profil
 
 ```
 
