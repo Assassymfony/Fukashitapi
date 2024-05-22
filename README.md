@@ -53,6 +53,52 @@ classDiagram
 
 ```
 
+## MLD : 
+
+```mermaid
+classDiagram
+    class Post{
+        _id_ BIGINT
+        title TEXT
+        text TEXT
+        isDream BOOLEAN
+        upVote INT
+        downVote INT
+        #profil
+    }
+
+    class Profil{
+        _id_ BIGINT
+        name TEXT
+        description TEXT
+        password TEXT
+    }
+
+    class Tagging{
+        #_tag_ BIGINT
+        #_post_ BIGINT
+    }
+
+    class Tags{
+        _id_ BIGINT
+        name TEXT
+        color TEXT
+    }
+
+    class Commentary{
+        _id_ BIGINT
+        text TEXT
+        #post
+    }
+
+    Post  <--  Commentary 
+    Post  -->  Profil
+    Tags  -->  Tagging 
+    Profil  <--  Profil
+    Post --> Tagging
+
+```
+
 
 # Développeurs 🧑‍💻
 
