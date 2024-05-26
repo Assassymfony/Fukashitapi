@@ -126,7 +126,7 @@ classDiagram
 </a>
 
 <a href = "https://codefirst.iut.uca.fr/git/aurian.jault">
-<img src="https://codefirst.iut.uca.fr/git/avatars/d774f04d13eab2fbcdfcbfccb966108f?size=870" width="50" >
+<img src="https://codefirst.iut.uca.fr/git/avatars/e617cf1cc0d6e769f4dc33604f04525b?size=870" width="50" >
 </a>
 
 <a href = "https://codefirst.iut.uca.fr/git/remi.arnal">
@@ -134,7 +134,9 @@ classDiagram
 </a>
 
 <a href = "https://codefirst.iut.uca.fr/git/dorian.hodin">
-<img src="https://codefirst.iut.uca.fr/git/avatars/d6f97dbdf66352b0b66685e144aa1ee5?size=870" width="50" >
+<img src="https://codefirst.iut.uca.fr/git/avatars/1987ef0b5b65f4d208cb3250a24b4794?size=870" width="50" >
 </a>
+
+</div>
 
 </div>
