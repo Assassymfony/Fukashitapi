@@ -12,4 +12,4 @@ RUN a2enmod actions
 
 COPY ./vhost.conf /etc/apache2/sites-available/000-default.conf
 RUN service apache2 restart
-ENTRYPOINT ["php","-S","0.0.0.0:80","-t","./public"]
+ENTRYPOINT ["apache2-foreground"]
