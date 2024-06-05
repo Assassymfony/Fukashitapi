@@ -13,7 +13,7 @@ steps:
       dockerfile: ./Dockerfile
       context: .
       registry: hub.codefirst.iut.uca.fr
-      repo: hub.codefirst.iut.uca.fr/dorian.hodin/fukashitapi
+      repo: hub.codefirst.iut.uca.fr/assasymfony/fukashitapi
       username:
         from_secret: SECRET_USERNAME
       password:
