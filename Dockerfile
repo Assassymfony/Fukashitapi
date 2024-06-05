@@ -12,5 +12,5 @@ RUN a2enmod actions
 
 COPY ./vhost.conf /etc/apache2/sites-available/000-default.conf
 RUN service apache2 restart
-
+EXPOSE 8383
 ENTRYPOINT ["php","-S","0.0.0.0:8383","-t","./public"]
