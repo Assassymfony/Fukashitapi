@@ -2,5 +2,4 @@ controllers:
     resource:
         path: ../src/Controller/
         namespace: App\Controller
-    type: annotation
-    prefix: '/containers/Assassymfony-fukashitapi'
+    type: attribute
